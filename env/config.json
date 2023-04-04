@@ -1,0 +1,24 @@
+{
+  "classic_Acrobot-v1": {
+    "class_literal": "GymEnv",
+    "is_obs_continuous": true,
+    "n_player": 1,
+    "is_act_continuous": false,
+    "act_box": {"discrete_n": 3},
+    "game_name": "Acrobot-v1",
+    "agent_nums": [1],
+    "max_step": 500,
+    "obs_type": ["vector"]
+  },
+  "gym_Hopper-v2": {
+    "class_literal": "GymEnv",
+    "act_box": {"low": -1.0, "high":1.0, "shape":[3]},
+    "agent_nums": [1],
+    "game_name": "Hopper-v2",
+    "is_act_continuous": true,
+    "is_obs_continuous": true,
+    "max_step": 1000,
+    "n_player": 1,
+    "obs_type": ["vector"]
+  }
+}
